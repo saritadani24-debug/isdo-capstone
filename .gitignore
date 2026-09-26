@@ -1,0 +1,11 @@
+# Secrets - never commit
+.env
+
+# Python virtual environment and caches
+labenv/
+__pycache__/
+*.pyc
+
+# Local runtime data
+logs/
+data/chroma_db/
